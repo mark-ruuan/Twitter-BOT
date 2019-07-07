@@ -41,7 +41,10 @@ class TwitterBot:
                     time.sleep(10)
                 except Exception as ex:
                     time.sleep(60)
-        
-ak = TwitterBot('ArunKum03614887', 'mynameisarun')
+
+#enter your username and password below
+myusername = ""
+mypassword = ""
+ak = TwitterBot(myusername, mypassword)
 ak.login()
 ak.like_tweet('cwc19')

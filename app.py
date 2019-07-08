@@ -45,6 +45,7 @@ class TwitterBot:
 #enter your username and password below
 myusername = ""
 mypassword = ""
+myhastag = "cwc19"
 ak = TwitterBot(myusername, mypassword)
 ak.login()
-ak.like_tweet('cwc19')
+ak.like_tweet(myhashtag)
